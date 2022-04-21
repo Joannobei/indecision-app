@@ -1,0 +1,40 @@
+{
+  "name": "indecision-app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Joan Nobei",
+  "license": "MIT",
+  "scripts": {
+    "serve": "live-server public/",
+    "build": "webpack",
+    "dev-server": "webpack-dev-server"
+  },
+  "dependencies": {
+    "@babel/cli": "^7.16.7",
+    "babel-plugin-transform-class-properties": "6.24.1",
+    "css-loader": "5.2.7",
+    "live-server": "^1.2.1",
+    "node-sass": "5.0.0",
+    "normalize.css": "7.0.0",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-modal": "3.14.4",
+    "sass-loader": "10.2.0",
+    "style-loader": "2.0.0",
+    "validator": "13.7.0",
+    "webpack-dev-server": "4.7.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.16.7",
+    "@babel/plugin-syntax-jsx": "^7.16.7",
+    "@babel/preset-env": "^7.16.7",
+    "@babel/preset-react": "^7.16.7",
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-jest": "^27.4.5",
+    "babel-loader": "8.0.0-beta.0",
+    "jest": "^27.4.5",
+    "regenerator-runtime": "^0.13.9",
+    "webpack": "4.46.0",
+    "webpack-cli": "^4.9.1"
+  }
+}
